@@ -1,0 +1,22 @@
+.root {
+  flex-direction: column;
+  @media (max-width: 460px) {
+    padding: 10px;
+  }
+}
+
+.search, .advantages {
+  display: flex;
+}
+
+.search {
+  margin-bottom: 40px;
+
+  @media (max-width: 860px) {
+    flex-wrap: wrap;
+  }
+}
+
+.button {
+  align-self: flex-start;
+}
